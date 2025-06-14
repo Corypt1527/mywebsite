@@ -1,59 +1,105 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    
-    <title>Cory Tremblay Website</title>
-<style>
-    /* Set the background color of the page */
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Cory Tremblay | Cybersecurity</title>
+  <style>
     body {
-      background-color: #f0f0f0; /* Light gray background */
       margin: 0;
       padding: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #121212; /* Dark background */
+      color: #e0e0e0; /* Light gray text */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
     }
 
-    /* Add a border around the entire page */
     .page-container {
-      border: 10px solid #4CAF50; /* Green border */
-      padding: 20px;
-      margin: 20px;
-      background-color: #ffffff; /* White background inside the border */
+      background-color: #1e1e1e; /* Slightly lighter than body */
+      border: 2px solid #00ffc8;
+      border-radius: 15px;
+      padding: 40px;
+      max-width: 800px;
+      width: 90%;
+      box-shadow: 0 0 20px rgba(0, 255, 200, 0.2);
+      text-align: center;
+    }
+
+    img.profile-pic {
+      width: 140px;
+      height: 140px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 3px solid #00ffc8;
+      margin-bottom: 20px;
+    }
+
+    h1, h2, h3, h4 {
+      color: #ffffff;
+    }
+
+    a {
+      color: #00ffc8;
+      text-decoration: none;
+      margin: 0 10px;
+      transition: color 0.3s ease;
+    }
+
+    a:hover {
+      color: #ff4081;
+    }
+
+    .social-icons img {
+      vertical-align: middle;
+      height: 28px;
+      margin: 0 8px;
+    }
+
+    aside {
+      font-style: italic;
+      color: #b0b0b0;
+      margin-bottom: 30px;
+    }
+
+    p {
+      line-height: 1.6;
     }
   </style>
 </head>
 
 <body>
-    <header>
-        <h1>Hello and welcome!</h1>
-        <aside>My name is Cory Tremblay, a Cybersecurity professional</aside>
-    </header>
-        
-        <h2>What am I working on</h2>
-        
-        <p>   I'm currently earning my Google Cybersecurity certificate as well as my CCST Cybersecurity and should be done around April. I am also taking any freetime that i have outside of doing school and practicing Python, HTML, SQL and pretty much anything that I believe will be useful in Networking, SIEM or for automation in security practices.
-	</p>
+  <div class="page-container">
+    <img src="IMG_1265.jpg" alt="Cory Tremblay" class="profile-pic">
 
-	<h3>What is my current employment status</h3>
+    <h1>Hello and welcome!</h1>
+    <aside>My name is Cory Tremblay, a Navy verteran and Cybersecurity professional!</aside>
 
-	<p>	I am currently in the United States Navy and plan to seperate under honorable conditions April 18th to change me career path to the cybersecurity field. If you have any questions, even if its just getting started with a certain language or how to get certificates for cheap, please reach out!
-	</p>
+    <h2>What am I working on</h2>
+    <p>
+      I'm currently earning my Google Cybersecurity certificate as well as earning my Associates of Science in Information Technology with a focus in cybersecurity at Keiser University. I am also spending my free time practicing Python, HTML, SQL, and security automation.
+    </p>
 
-	<h4> Contact Information</h4>
-	
-	<p>	Email: CoryPeterTremblay@gmail.com 
-	</p> 
-	
-	<p>	<a href="https://www.linkedin.com/in/cory-tremblay-02077a333/" target="_blank">
-  <img src="https://img.shields.io/badge/LinkedIn-Connect-blue" alt="LinkedIn Profile">
-</a>
-	</p> 
-	
-	<p>	<a href="https://github.com/Corypt1527" target="_blank">
-  <img src="https://img.shields.io/badge/GitHub-Follow%20Me-black" alt="GitHub Profile">
-</a>
+    <h3>What is my current employment status</h3>
+    <p>
+      I am currently a student at Keiser University but I am actively searching for opportunities to gain experience in the cybersecurity world. 
+    </p>
 
-	</p> 
-	
-</body>	
+    <h4>Contact Information</h4>
+<p> If you have any questions at all — whether it’s getting started with a certain language, finding affordable certs, employment opportunities or internships — please reach out!
+    <p>Email: CoryPeterTremblay@gmail.com</p>
+
+    <div class="social-icons">
+      <a href="https://www.linkedin.com/in/cory-tremblay-02077a333/" target="_blank">
+        <img src="https://img.shields.io/badge/LinkedIn-Connect-0077b5?logo=linkedin&logoColor=white" alt="LinkedIn Profile">
+      </a>
+      <a href="https://github.com/Corypt1527" target="_blank">
+        <img src="https://img.shields.io/badge/GitHub-Follow-181717?logo=github&logoColor=white" alt="GitHub Profile">
+      </a>
+    </div>
+  </div>
+</body>
 </html>
+
