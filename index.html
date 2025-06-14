@@ -72,7 +72,7 @@
 
     .resume-button {
       text-align: center;
-      margin-top: 30px;
+      margin: 30px 0;
     }
 
     .btn-resume {
@@ -92,6 +92,24 @@
     .btn-resume:focus {
       background-color: #45a049;
       outline: none;
+    }
+
+    details {
+      margin-top: 30px;
+      background-color: #2a2a2a;
+      border-radius: 8px;
+      padding: 20px;
+    }
+
+    summary {
+      font-size: 1.2em;
+      font-weight: bold;
+      cursor: pointer;
+      outline: none;
+    }
+
+    summary:hover {
+      color: #80cbc4;
     }
 
     @media (max-width: 600px) {
@@ -135,48 +153,51 @@
       </a>
     </div>
 
-    <h2>Projects</h2>
-
-    <h3>🔐 Raspberry Pi Firewall & DNS Sinkhole</h3>
-    <p>
-      Built a network security system on Raspberry Pi with:
-      <ul>
-        <li>iptables rules to block malicious ports</li>
-        <li>Pi-hole for DNS filtering and ad/tracker blocking</li>
-        <li>Dual WiFi adapter setup for stable routing</li>
-        <li>Remote SSH access and CRON for automation</li>
-      </ul>
-      Documented on <a href="https://github.com/Corypt1527" target="_blank" rel="noopener noreferrer" style="color: #82b1ff;">GitHub</a>.
-    </p>
-
-    <h3>📊 Home Network Monitoring</h3>
-    <p>
-      Used Pi-hole and Wireshark to inspect DNS traffic and observe patterns in network behavior. Logged and visualized common queries and filtered suspicious ones.
-    </p>
-
-    <h3>🎓 Google Cybersecurity Labs</h3>
-    <p>
-      Hands-on labs covering topics like:
-      <ul>
-        <li>Log analysis and SIEM fundamentals</li>
-        <li>Incident detection & response scenarios</li>
-        <li>Linux CLI, permissions, and malware discovery</li>
-      </ul>
-    </p>
-
-    <h3>🌐 Cisco CCST Labs (Packet Tracer)</h3>
-    <p>
-      Simulated real-world networking environments with:
-      <ul>
-        <li>Switch & router configuration</li>
-        <li>Network security principles</li>
-        <li>VLANs, ACLs, and device segmentation</li>
-      </ul>
-    </p>
-
     <div class="resume-button">
       <a href="Cory_Tremblay_Resume.pdf" download class="btn-resume">📄 Download Resume</a>
     </div>
+
+    <details>
+      <summary>📂 Check Out My Projects</summary>
+
+      <h3>🔐 Raspberry Pi Firewall & DNS Sinkhole</h3>
+      <p>
+        Built a network security system on Raspberry Pi with:
+        <ul>
+          <li>iptables rules to block malicious ports</li>
+          <li>Pi-hole for DNS filtering and ad/tracker blocking</li>
+          <li>Dual WiFi adapter setup for stable routing</li>
+          <li>Remote SSH access and CRON for automation</li>
+        </ul>
+      </p>
+
+      <h3>📊 Home Network Monitoring</h3>
+      <ul>
+        <li>Used Pi-hole and Wireshark to inspect DNS traffic and observe patterns in network behavior.</li>
+        <li>Logged and visualized common queries and filtered suspicious ones.</li>
+      </ul>
+
+      <h3>🎓 Google Cybersecurity Labs</h3>
+      <p>
+        Hands-on labs covering topics like:
+        <ul>
+          <li>Log analysis and SIEM fundamentals</li>
+          <li>Incident detection & response scenarios</li>
+          <li>Linux CLI, permissions, and malware discovery</li>
+        </ul>
+      </p>
+
+      <h3>🌐 Cisco CCST Labs (Packet Tracer)</h3>
+      <p>
+        Simulated real-world networking environments with:
+        <ul>
+          <li>Switch & router configuration</li>
+          <li>Network security principles</li>
+          <li>VLANs, ACLs, and device segmentation</li>
+        </ul>
+      </p>
+
+    </details>
   </div>
 </body>
 </html>
