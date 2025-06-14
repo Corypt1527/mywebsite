@@ -3,105 +3,180 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Cory Tremblay | Cybersecurity</title>
+  <title>Cory Tremblay Portfolio</title>
   <style>
     body {
       margin: 0;
-      padding: 0;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background-color: #121212; /* Dark background */
-      color: #e0e0e0; /* Light gray text */
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #121212;
+      color: #e0e0e0;
       display: flex;
       justify-content: center;
-      align-items: center;
-      min-height: 100vh;
+      padding: 30px;
     }
 
     .page-container {
-      background-color: #1e1e1e; /* Slightly lighter than body */
-      border: 2px solid #00ffc8;
-      border-radius: 15px;
-      padding: 40px;
       max-width: 800px;
-      width: 90%;
-      box-shadow: 0 0 20px rgba(0, 255, 200, 0.2);
-      text-align: center;
+      background-color: #1e1e1e;
+      padding: 40px;
+      border-radius: 12px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.3);
     }
 
-    img.profile-pic {
+    .profile-pic {
       width: 140px;
-      height: 140px;
-      object-fit: cover;
       border-radius: 50%;
-      border: 3px solid #00ffc8;
-      margin-bottom: 20px;
+      display: block;
+      margin: 0 auto 20px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.3);
     }
 
     h1, h2, h3, h4 {
-      color: #ffffff;
+      text-align: center;
     }
 
-    a {
-      color: #00ffc8;
-      text-decoration: none;
-      margin: 0 10px;
-      transition: color 0.3s ease;
-    }
-
-    a:hover {
-      color: #ff4081;
-    }
-
-    .social-icons img {
-      vertical-align: middle;
-      height: 28px;
-      margin: 0 8px;
+    h1 {
+      font-size: 2em;
+      margin-bottom: 0.3em;
     }
 
     aside {
+      text-align: center;
       font-style: italic;
-      color: #b0b0b0;
-      margin-bottom: 30px;
+      margin-bottom: 1.5em;
     }
 
     p {
       line-height: 1.6;
+      margin: 1em 0;
+      text-align: center;
+    }
+
+    .social-icons {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      margin-top: 15px;
+    }
+
+    .social-icons img {
+      height: 30px;
+    }
+
+    ul {
+      margin: 0 auto;
+      max-width: 90%;
+      text-align: left;
+      padding-left: 1.5em;
+    }
+
+    .resume-button {
+      text-align: center;
+      margin-top: 30px;
+    }
+
+    .btn-resume {
+      display: inline-block;
+      padding: 12px 24px;
+      font-size: 1em;
+      border-radius: 6px;
+      background-color: #4caf50;
+      color: white;
+      text-decoration: none;
+      cursor: pointer;
+      text-align: center;
+      transition: background-color 0.3s ease;
+    }
+
+    .btn-resume:hover,
+    .btn-resume:focus {
+      background-color: #45a049;
+      outline: none;
+    }
+
+    @media (max-width: 600px) {
+      .page-container {
+        padding: 20px;
+      }
+
+      ul {
+        padding-left: 1em;
+      }
     }
   </style>
 </head>
-
 <body>
   <div class="page-container">
-    <img src="IMG_1265.jpg" alt="Cory Tremblay" class="profile-pic" />
+    <img src="IMG_1265.jpg" alt="Cory Tremblay" class="profile-pic">
 
     <h1>Hello and welcome!</h1>
-    <aside>My name is Cory Tremblay — a Navy veteran and Cybersecurity professional!</aside>
+    <aside>My name is Cory Tremblay, a Navy veteran and Cybersecurity professional!</aside>
 
-    <h2>What am I working on?</h2>
+    <h2>What am I working on</h2>
     <p>
-      I'm currently earning my Google Cybersecurity Certificate and working toward an Associate of Science in Information Technology with a focus in Cybersecurity at Keiser University. I also spend my free time practicing Python, HTML, SQL, and security automation tools.
+      I'm currently earning my Google Cybersecurity certificate and pursuing an Associate of Science in Information Technology with a focus on cybersecurity at Keiser University. I also spend time studying Python, HTML, SQL, and security automation.
     </p>
 
-    <h2>What is my current employment status?</h2>
+    <h3>What is my current employment status</h3>
     <p>
-      I’m currently a full-time student at Keiser University and actively seeking opportunities to gain hands-on experience in cybersecurity through internships, entry-level positions, or volunteer projects.
+      I'm a full-time student and transitioning Navy veteran actively seeking internships or entry-level cybersecurity roles to gain real-world experience.
     </p>
 
-    <h2>Contact Information</h2>
-    <p>
-      If you have any questions — whether it's about getting started with a programming language, finding affordable certifications, or sharing opportunities — feel free to reach out.
-    </p>
-    <p><strong>Email:</strong> <a href="mailto:CoryPeterTremblay@gmail.com">CoryPeterTremblay@gmail.com</a></p>
+    <h4>Contact Information</h4>
+    <p>If you have any questions about certs, language learning, or cyber career paths — feel free to reach out!</p>
+    <p>Email: <a href="mailto:CoryPeterTremblay@gmail.com" style="color: #80cbc4;">CoryPeterTremblay@gmail.com</a></p>
 
     <div class="social-icons">
-      <a href="https://www.linkedin.com/in/cory-tremblay-02077a333/" target="_blank">
-        <img src="https://img.shields.io/badge/LinkedIn-Connect-0077b5?logo=linkedin&logoColor=white" alt="LinkedIn Profile">
+      <a href="https://www.linkedin.com/in/cory-tremblay-02077a333/" target="_blank" rel="noopener noreferrer">
+        <img src="https://img.shields.io/badge/LinkedIn-Connect-0077b5?logo=linkedin&logoColor=white" alt="LinkedIn">
       </a>
-      <a href="https://github.com/Corypt1527" target="_blank">
-        <img src="https://img.shields.io/badge/GitHub-Follow-181717?logo=github&logoColor=white" alt="GitHub Profile">
+      <a href="https://github.com/Corypt1527" target="_blank" rel="noopener noreferrer">
+        <img src="https://img.shields.io/badge/GitHub-Follow-181717?logo=github&logoColor=white" alt="GitHub">
       </a>
+    </div>
+
+    <h2>Projects</h2>
+
+    <h3>🔐 Raspberry Pi Firewall & DNS Sinkhole</h3>
+    <p>
+      Built a network security system on Raspberry Pi with:
+      <ul>
+        <li>iptables rules to block malicious ports</li>
+        <li>Pi-hole for DNS filtering and ad/tracker blocking</li>
+        <li>Dual WiFi adapter setup for stable routing</li>
+        <li>Remote SSH access and CRON for automation</li>
+      </ul>
+      Documented on <a href="https://github.com/Corypt1527" target="_blank" rel="noopener noreferrer" style="color: #82b1ff;">GitHub</a>.
+    </p>
+
+    <h3>📊 Home Network Monitoring</h3>
+    <p>
+      Used Pi-hole and Wireshark to inspect DNS traffic and observe patterns in network behavior. Logged and visualized common queries and filtered suspicious ones.
+    </p>
+
+    <h3>🎓 Google Cybersecurity Labs</h3>
+    <p>
+      Hands-on labs covering topics like:
+      <ul>
+        <li>Log analysis and SIEM fundamentals</li>
+        <li>Incident detection & response scenarios</li>
+        <li>Linux CLI, permissions, and malware discovery</li>
+      </ul>
+    </p>
+
+    <h3>🌐 Cisco CCST Labs (Packet Tracer)</h3>
+    <p>
+      Simulated real-world networking environments with:
+      <ul>
+        <li>Switch & router configuration</li>
+        <li>Network security principles</li>
+        <li>VLANs, ACLs, and device segmentation</li>
+      </ul>
+    </p>
+
+    <div class="resume-button">
+      <a href="Cory_Tremblay_Resume.pdf" download class="btn-resume">📄 Download Resume</a>
     </div>
   </div>
 </body>
 </html>
-
